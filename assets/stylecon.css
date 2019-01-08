@@ -1,0 +1,36 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: 0;
+  font-family: 'Open Sans', sans-serif;
+}
+
+#navbar{
+  background-color: #C31118;
+}
+
+#username, #email, #contact{
+	border-radius: 0;
+	border: none;
+	border-bottom: 1px solid black;
+}
+
+#message{
+	border-color: black;
+}
+
+#for-border{
+	border: 1px solid black;
+}
+
+#for-loc{
+	border: 1px solid black;
+}
+
+#holder{
+	padding-top: 4%;
+}
+
+footer{
+  background-color: #C31118;
+}

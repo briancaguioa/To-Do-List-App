@@ -1,0 +1,199 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: 0;
+	font-family: 'Open Sans', sans-serif;
+}
+
+#main-container{
+	background-color: #EEEFA8;
+	height: 92vh;
+}
+
+#home-container{
+	background-color: #C31118;
+	height: 92vh;
+	padding: 0 2px 0 2px;
+	box-shadow: 6px 0 4px -4px #222 , -6px 0 4px -4px #222; 
+	-moz-box-shadow: 6px 0 4px -4px #222, -6px 0 4px -4px #222; 
+	-webkit-box-shadow: 6px 0 4px -4px #222, -6px 0 4px -4px #222;
+}
+
+
+#navbar{
+	background-color: #C31118;
+}
+
+
+#bg-holder{
+	background-color: #C31118;
+	height: 92vh;
+}
+
+#jumbo{
+	background: url(../images/homebg.jpg);
+	background-size: cover;
+	border-radius: 0;
+	height: 92vh;
+	-webkit-clip-path: polygon(50% 0%, 100% 0, 100% 86%, 50% 98%, 0 85%, 0 0);
+	clip-path: polygon(50% 0%, 100% 0, 100% 86%, 50% 98%, 0 85%, 0 0);
+}
+
+#logo-holder{
+	/*position: relative;*/
+	margin: 0 auto;
+	width: 300px;
+	height: 300px;
+	border-radius: 50%;
+	-webkit-box-shadow: 0px 9px 7px 2px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 9px 7px 2px rgba(0,0,0,0.75);
+	box-shadow: 0px 9px 7px 2px rgba(0,0,0,0.75);
+}
+
+#title-holder{
+	 filter: drop-shadow(0px 10px 5px rgba(0,0,0,0.5));
+}
+
+#plates-spices{
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 4em;
+	padding-top: 7%;
+	text-transform: uppercase;
+	letter-spacing: 7px;
+	color: #f2f2f2;
+}
+
+#food-house{
+	font-family: 'Open Sans Condensed', sans-serif;
+	color: #f2f2f2;
+}
+
+
+#btn-menu{
+	margin-top: 35%;
+	background-color: #EEEFA8;
+	/*border: 1px solid #ee4b08;*/
+	border-radius: 0;
+	-webkit-box-shadow: 0px 9px 7px 2px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 9px 7px 2px rgba(0,0,0,0.75);
+	box-shadow: 0px 9px 7px 2px rgba(0,0,0,0.75);
+}
+
+button > a{
+	color: #333;
+}
+
+button > a:hover{
+	text-decoration: none;
+	color: #ee4b08;
+}
+
+#aboutus:hover{
+	background-color: pink;
+}
+
+
+
+
+/*SIDE BAR ICON*/
+.icon-bar {
+  position: fixed;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.icon-bar a {
+  display: block;
+  text-align: center;
+  padding: 15px;
+  transition: all 0.3s ease;
+  color: black;
+  font-size: 20px;
+}
+
+.icon-bar a:hover {
+  background-color: lightgrey;
+  border-left: 2px solid blue;
+}
+
+
+/*END SIDE BAR ICON*/
+
+
+@media only screen and (max-width: 400px) {
+
+	#logo-holder{
+		width: 150px;
+		height: 150px;
+		border-radius: 50%;
+		margin: 0;
+		margin-left: 27%;
+	}
+
+	.icon-bar{
+		display: none;
+	}
+
+	#main-container{
+		padding: 0;
+	}
+
+	#plates-spices{
+		font-family: 'Open Sans Condensed', sans-serif;
+		font-size: 2em;
+		text-align: center;
+	}
+
+	#food-house{
+		text-align: center;
+	}
+
+	hr{
+		display: none;
+	}
+
+	#btn-menu{
+		margin-top: 25%;
+		background-color: #EEEFA8;
+		/*border: 1px solid #ee4b08;*/
+		border-radius: 0;
+		-webkit-box-shadow: 0px 9px 7px 2px rgba(0,0,0,0.75);
+		-moz-box-shadow: 0px 9px 7px 2px rgba(0,0,0,0.75);
+		box-shadow: 0px 9px 7px 2px rgba(0,0,0,0.75);
+	}
+
+	button > a:hover{
+		text-decoration: none;
+		color: #ee4b08;
+	}
+}
+
+@media only screen and (min-width: 401px) and (max-width: 960px){
+	#logo-holder{
+		/*position: relative;*/
+		margin: 0 auto;
+		width: 250px;
+		height: 250px;
+		border-radius: 50%;
+		-webkit-box-shadow: 0px 9px 7px 2px rgba(0,0,0,0.75);
+		-moz-box-shadow: 0px 9px 7px 2px rgba(0,0,0,0.75);
+		box-shadow: 0px 9px 7px 2px rgba(0,0,0,0.75);
+	}
+
+	.icon-bar{
+		display: none;
+	}
+
+	#main-container{
+		padding: 0;
+		margin: 0;
+	}
+
+	#logo{
+		padding-top: 10%;
+	}
+
+	
+}

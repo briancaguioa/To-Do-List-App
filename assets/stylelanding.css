@@ -1,0 +1,135 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: 0;
+	scroll-behavior: smooth;
+}
+
+#jumbo-div{
+	background-image: url(../images/logo3.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	height: 100vh;
+}
+
+#land-jumbo{
+	color: #f2f2f2;
+}
+
+.taste{
+	padding-top: 5%;
+	letter-spacing: 5px;
+	text-transform: uppercase;
+	font-family: 'Courgette', cursive;
+	font-size: 3em;
+}
+
+.btn-center{
+	text-align: center;
+	padding-top: 10%;
+}
+
+#btn-center{
+	padding: 10px 50px;
+	font-weight: 700;
+  	text-transform: uppercase;
+ 	border-radius: 150px;
+ 	background-color: #F05F44;
+    border-color: #F05F44;
+}
+
+#btn-center:hover {
+  	background-color: #ee4b08;
+ 	border-color: #ee4b08;
+	border-width: 3px;
+ 	cursor: pointer;
+}
+#btn-center > a {
+	color: #333;
+	text-decoration: none;
+}
+
+#btn-center > a:hover {
+	color: #333;
+	text-decoration: none;
+}
+
+/*end landing page*/
+
+
+/*.lgo{
+	text-align: center;
+	padding: 10px;
+}
+*/
+/*img[alt*="logo"]{
+	width: 200px;
+	height: 200px;
+	border-radius: 100%;
+	box-shadow: 0 10px 6px  0 hsla(0, 0%, 0%, 1);
+}*/
+ /*end landing page*/
+
+
+
+
+/*MEDIA QUERY FOR MOBILE---------------------*/
+@media only screen and (max-width: 400px) {
+
+	.taste{
+		margin: 5px;
+		font-family: 'Courgette', cursive;
+		font-size: 2em;	
+	}
+
+	#land-jumbo{
+		padding-top: 40%;
+	}
+
+	.short{
+		font-size: 1em;
+	}
+
+	#btn-center{
+		width: 50%;
+	}
+
+	#btn-center > a {
+		font-size: 1em;
+	}
+}
+
+
+/*MRDIA QUERY FOR TABLET--------------------*/
+@media only screen and (min-width: 401px) and (max-width: 1024px) {
+	img[alt*="logo"]{
+		width: 250px;
+		height: 250px;
+	}
+
+
+	#land-jumbo{
+		padding-top: 25%;
+	}
+
+	.taste{
+		margin: 5px;
+		font-family: 'Courgette', cursive;
+		font-size: 3.5em;	
+	}
+
+	.short{
+		font-size: 1.7em;
+	}
+
+	#btn-center{
+		width: 40%;
+		height: 70px;
+	}
+
+	#btn-center > a {
+		font-size: 1.5em;
+	}
+
+}

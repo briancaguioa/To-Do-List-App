@@ -1,0 +1,50 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: 0;
+	scroll-behavior: smooth;
+}
+
+#navbar{
+  background-color: #C31118;
+}
+
+#menu-bg{
+	height: 92vh;
+	box-shadow: 6px 0 4px -4px #222 , -6px 0 4px -4px #222; 
+ -moz-box-shadow: 6px 0 4px -4px #222, -6px 0 4px -4px #222; 
+	-webkit-box-shadow: 6px 0 4px -4px #222, -6px 0 4px -4px #222; }
+}
+
+.carousel{
+	width: 92%;
+	height: 100vh;
+
+}
+
+.carousel-inner > .carousel-item > img {
+	height: 92vh;
+	border-top: 0;
+}
+
+#gall{
+	padding-top: 3%;
+	/*background-color: pink;*/
+	height: 97vh;
+}
+
+#cards{
+	padding-top: 2%;
+}
+
+.card > img{
+	height: 290px;
+}
+
+.card{
+	margin: 3px;
+}
+
+footer{
+  background-color: #C31118;
+}
